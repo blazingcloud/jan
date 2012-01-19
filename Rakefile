@@ -120,6 +120,7 @@ def vim_plugin_task(name, repo=nil)
   task :default => name
 end
 #vim_plugin_task "taglist", "git://github.com/vim-scripts/taglist.vim.git"
+vim_plugin_task "vim-ruby", "https://github.com/vim-ruby/vim-ruby.git"
 vim_plugin_task "supertab", "git://github.com/ervandew/supertab.git"
 vim_plugin_task "javascript",   "https://github.com/pangloss/vim-javascript.git"
 vim_plugin_task "coffescript",  "https://github.com/kchmck/vim-coffee-script.git"
